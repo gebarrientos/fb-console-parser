@@ -36,7 +36,7 @@ namespace FBMessageParserConsole
             using (StreamReader r = new StreamReader(file))
             {
                 string json = r.ReadToEnd();
-                RootObject convertedMessage = JsonConvert.DeserializeObject<RootObject>(file);
+                RootObject convertedMessage = JsonConvert.DeserializeObject<RootObject>(json);
                 return convertedMessage;
             }
         }
