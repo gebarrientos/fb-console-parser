@@ -4,15 +4,16 @@ using System.IO;
 using System.Text;
 using Newtonsoft.Json;
 
-
-namespace FBMessageParserConsole
+/// <summary>
+/// The following class structure is designed to contain the JSON fields that are used in Facebook messages; if there
+/// are more elegant ways to store the list, please update the code and let me know.
+/// </summary>
+namespace FBMessageParserConsole    
 {
     public class Participant
     {
         public string name { get; set; }
     }
-
-
 
     public class Message
     {
@@ -22,7 +23,7 @@ namespace FBMessageParserConsole
         public string type { get; set; }
     }
 
-    public class RootObject
+    public class Messenger
     {
         public List<Participant> participants { get; set; }
         public List<Message> messages { get; set; }
@@ -31,12 +32,13 @@ namespace FBMessageParserConsole
         public string thread_type { get; set; }
         public string thread_path { get; set; }
 
-        public static RootObject Deserializer(string file)
+        public static Messenger Deserializer(string file)
         {
             using (StreamReader r = new StreamReader(file))
             {
                 string json = r.ReadToEnd();
-                RootObject convertedMessage = JsonConvert.DeserializeObject<RootObject>(json);
+                Console.WriteLine("Reading JSON File....");
+                Messenger convertedMessage = JsonConvert.DeserializeObject<Messenger>(json);
                 return convertedMessage;
             }
         }
