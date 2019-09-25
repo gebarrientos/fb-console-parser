@@ -1,0 +1,70 @@
+{
+  "participants": [
+    {
+      "name": "Alfonso Saco"
+    },
+    {
+      "name": "Gerard Barrientos"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1567209615944,
+      "content": "I gotcha papi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Alfonso Saco",
+      "timestamp_ms": 1567209094123,
+      "content": "Salamat kuya. I might need some inspiration if the newsletter start to become dry.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1567207371644,
+      "content": "I'll be glad to do some proofreading or give advice ahead of time",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1567207356218,
+      "content": "hey papi if you ever need any advice or help with the newsletter just lmk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1566606843441,
+      "content": "lemme help with gas friend",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1566606835761,
+      "content": "thats all coo to me",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Alfonso Saco",
+      "timestamp_ms": 1566606784059,
+      "content": "I\u00e2\u0080\u0099m fine with that, the officer board might go out and eat breakfast after but I\u00e2\u0080\u0099m fine dropping you off",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1566606281432,
+      "content": "its understandable if you cant though",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Gerard Barrientos",
+      "timestamp_ms": 1566606269565,
+      "content": "hey fren, if youre planning to head straight home after officer photoshoot tomorrow, can i please hitch a ride home with you?",
+      "type": "Generic"
+    }
+  ],
+  "title": "Alfonso Saco",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/AlfonsoSaco_fzaYJ-pTsw"
+}
