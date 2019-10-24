@@ -12,5 +12,7 @@ namespace FBMessageParserConsole
             DirectoryInfo di = new DirectoryInfo(@"E:\Users\Kankariko\Documents\GitHub\fb-console-parser\FBMessageParserConsole\inbox");
             return di;
         }
+
+
     }
 }
