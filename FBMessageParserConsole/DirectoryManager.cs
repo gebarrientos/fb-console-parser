@@ -9,7 +9,7 @@ namespace FBMessageParserConsole
     {
         public static DirectoryInfo DirectoryInitialize()
         {
-            DirectoryInfo di = new DirectoryInfo(@"E:\Users\Kankariko\Documents\GitHub\fb-console-parser\FBMessageParserConsole\inbox");
+            DirectoryInfo di = new DirectoryInfo(@"E:\Users\Kankariko\Documents\GitHub\inbox"); //initialize this to the inbox folder for now
             return di;
         }
     }
